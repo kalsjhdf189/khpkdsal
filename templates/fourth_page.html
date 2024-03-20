@@ -1,31 +1,22 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <<title>Section</title>
-    <link rel="stylesheet" href="{% static 'style4.css' %}">
+    <title>Section</title>
+    <link rel="stylesheet" href="{% static 'style3.css' %}">
 </head>
 <body>
-    <div class="overlay"></div>
-
-    <div class="text">
-        <div class="wrapper">
-            <div id="T" class="letter">T</div>
-            <div class="shadow">T</div>
+    <section class="header">
+        <div class="title-wrapper">
+            <h1 class="sweet-title">
+                <span data-text="Text1">Text1</span>
+                <span data-text="Text2">Text2</span>
+            </h1>
+            <span class="top-title">Text 3</span>
+            <span class="bottom-title">Text4</span>
         </div>
-        <div class="wrapper">
-            <div id="E" class="letter">E</div>
-            <div class="shadow">E</div>
-        </div>
-        <div class="wrapper">
-            <div id="X" class="letter">X</div>
-            <div class="shadow">X</div>
-        </div>
-        <div class="wrapper">
-            <div id="T" class="letter">T</div>
-            <div class="shadow">T</div>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
